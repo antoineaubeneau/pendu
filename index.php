@@ -7,8 +7,8 @@ $LettreEssai = "";
 
 function Motdebase()
 {
-    $mots = ["fauteuil"];
-    return $mots[0];
+    $mots = ["fauteuil", "table"];
+    return $mots[1];
 }
 
 function Motcache($mot)
